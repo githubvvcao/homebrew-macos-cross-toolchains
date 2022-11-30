@@ -26,7 +26,7 @@ jobs:
           - arm-unknown-linux-gnueabi
           - arm-unknown-linux-gnueabihf
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install crosstool-ng
         run: |
           brew install coreutils
